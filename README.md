@@ -8,4 +8,4 @@ Consequencies : - should manualy put the database to internal storage( or extern
                 - Lolipop minimal version( for toolbar).
 NKB.apk size is 34 KB.
 nkb.db size 154KB (sqlite3)
-Compile with eclipse + android sdk, deleted v4 compatible library ( in lib folder).
+Compile with eclipse + android sdk, deleted android support v4 jar library ( in lib folder).
