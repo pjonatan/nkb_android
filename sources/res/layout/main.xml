@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+	
+  <LinearLayout
+	android:orientation="horizontal"
+	android:layout_weight="1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/biru">
+    
+    <ImageView
+        android:contentDescription="@null"
+		android:layout_width="0dp"
+		android:layout_weight="20"
+		android:src="@drawable/ic_launcher"
+		android:layout_height="fill_parent" />
+            
+    <TextView
+    	android:id="@+id/pasal"
+        android:layout_width="0dp"
+        android:layout_weight="60" 
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:text="" />
+        
+    <ImageView
+	    android:id="@+id/exit"
+	    android:contentDescription="@null"
+		android:layout_width="0dp"
+		android:layout_weight="20"
+		android:layout_height="fill_parent"
+		android:src="@drawable/exit" />
+        
+  </LinearLayout>
+  
+ <LinearLayout
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_weight="80" >
+    
+  <LinearLayout
+	android:orientation="horizontal"
+	android:layout_weight="20"
+	android:background="@color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+        
+		<TextView
+		    android:id="@+id/one"
+		    android:contentDescription="@null"
+			android:layout_width="0dp"
+			android:layout_weight=".33"
+            android:textSize="30sp"
+			android:layout_marginTop="35dp"
+			android:layout_marginLeft="35dp"
+			android:textColor="@color/white"
+			android:layout_height="fill_parent"
+			android:text="@string/one" />
+        
+		<TextView
+		    android:id="@+id/two"
+		    android:contentDescription="@null"
+			android:layout_marginTop="35dp"
+			android:layout_marginLeft="35dp"
+            android:textSize="30sp"
+			android:layout_width="0dp"
+			android:textColor="@color/white"
+			android:layout_weight=".33"
+			android:layout_height="fill_parent"
+			android:text="@string/two" />
+
+		<TextView
+		    android:id="@+id/three"
+		    android:contentDescription="@null"
+			android:layout_width="0dp"
+			android:layout_marginTop="35dp"
+            android:textSize="30sp"
+			android:layout_marginLeft="35dp"
+			android:textColor="@color/white"
+			android:layout_weight=".34"
+			android:layout_height="fill_parent"
+			android:text="@string/tri" />
+
+  </LinearLayout>				
+
+  <LinearLayout
+	android:orientation="horizontal"
+	android:layout_weight="20"
+	android:background="@color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+		
+		<TextView
+		    android:id="@+id/four"
+		    android:contentDescription="@null"
+			android:layout_width="0dp"
+			android:textColor="@color/white"
+            android:textSize="30sp"
+			android:layout_marginTop="35dp"
+			android:layout_marginLeft="35dp"
+			android:layout_weight=".33"
+			android:layout_height="fill_parent"
+			android:text="@string/fou" />
+        
+		<TextView
+		    android:id="@+id/five"
+		    android:contentDescription="@null"
+			android:layout_width="0dp"
+			android:layout_marginTop="35dp"
+			android:layout_marginLeft="35dp"
+            android:textSize="30sp"
+			android:textColor="@color/white"
+			android:layout_weight=".33"
+			android:layout_height="fill_parent"
+			android:text="@string/fiv" />
+
+		<TextView
+		    android:id="@+id/six"
+		    android:contentDescription="@null"
+			android:layout_marginTop="35dp"
+			android:layout_marginLeft="35dp"
+			android:layout_width="0dp"
+            android:textSize="30sp"
+			android:textColor="@color/white"
+			android:layout_weight=".34"
+			android:layout_height="fill_parent"
+			android:text="@string/six" />
+
+  </LinearLayout>		
+
+  <LinearLayout
+	android:orientation="horizontal"
+	android:layout_weight="20"
+	android:background="@color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+		
+		<TextView
+		    android:id="@+id/seven"
+		    android:contentDescription="@null"
+			android:textColor="@color/white"
+			android:layout_width="0dp"
+			android:layout_marginTop="35dp"
+			android:layout_marginLeft="35dp"
+            android:textSize="30sp"
+			android:layout_weight=".33"
+			android:layout_height="fill_parent"
+			android:text="@string/sev" />
+        
+		<TextView
+		    android:id="@+id/eight"
+		    android:contentDescription="@null"
+			android:layout_weight=".33"
+			android:layout_marginTop="35dp"
+			android:layout_marginLeft="35dp"
+            android:textSize="30sp"
+			android:textColor="@color/white"
+			android:layout_width="0dp"
+			android:layout_height="fill_parent"
+			android:text="@string/eig" />
+
+		<TextView
+		    android:id="@+id/nine"
+		    android:contentDescription="@null"
+			android:textColor="@color/white"
+			android:layout_weight=".34"
+			android:layout_marginTop="35dp"
+			android:layout_marginLeft="35dp"
+            android:textSize="30sp"
+			android:layout_width="0dp"
+			android:layout_height="fill_parent"
+			android:text="@string/nin" />
+		
+  </LinearLayout>		
+
+  <LinearLayout
+	android:orientation="horizontal"
+	android:background="@color/black"
+	android:layout_weight="20"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+				
+		<TextView
+		    android:id="@+id/eb"
+		    android:contentDescription="@null"
+			android:layout_width="0dp"
+			android:layout_weight=".33"
+			android:layout_marginTop="35dp"
+			android:layout_marginLeft="35dp"
+            android:textSize="20sp"
+			android:textColor="@color/biru"
+			android:layout_height="fill_parent"
+			android:text="@string/hapus" />
+        
+		<TextView
+		    android:id="@+id/zero"
+		    android:contentDescription="@null"
+			android:layout_width="0dp"
+			android:textColor="@color/white"
+			android:layout_marginTop="35dp"
+			android:layout_marginLeft="35dp"
+            android:textSize="30sp"
+			android:layout_weight=".33"
+			android:layout_height="fill_parent"
+			android:text="@string/nol" />
+
+		<TextView
+		    android:id="@+id/ok"
+		    android:contentDescription="@null"
+			android:layout_width="0dp"
+			android:textColor="@color/biru"
+			android:layout_marginTop="35dp"
+			android:layout_marginLeft="35dp"
+            android:textSize="30sp"
+			android:layout_weight=".34"
+			android:layout_height="fill_parent"
+			android:text="@string/oky" />
+		
+  </LinearLayout>		
+ </LinearLayout>				
+</LinearLayout>
