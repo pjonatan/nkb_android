@@ -8,8 +8,8 @@ import android.widget.*;
 
 public class Main extends Activity {
 
-	TextView tV;
-	ImageButton iB, iBeb, iBok, iB0, iB1, iB2, iB3, iB4, iB5, iB6, iB7, iB8, iB9;
+	TextView tV, iBok, iB0, iB1, iB2, iB3, iB4, iB5, iB6, iB7, iB8, iB9, iBeb;
+	ImageView iB;
 	String nya = "Silakan tik angka";
 	int smt = 0, kb = 0;
 	
@@ -19,19 +19,19 @@ public class Main extends Activity {
 		setContentView(R.layout.main);
 		
 		tV = (TextView)findViewById(R.id.pasal);
-		iB = (ImageButton)findViewById(R.id.exit);
-        iBeb  = (ImageButton)findViewById(R.id.eb);
-        iBok  = (ImageButton)findViewById(R.id.ok);
-        iB0   = (ImageButton)findViewById(R.id.zero);
-        iB1   = (ImageButton)findViewById(R.id.one);
-        iB2   = (ImageButton)findViewById(R.id.two);
-        iB3   = (ImageButton)findViewById(R.id.three);
-        iB4   = (ImageButton)findViewById(R.id.four);
-        iB5   = (ImageButton)findViewById(R.id.five);
-        iB6   = (ImageButton)findViewById(R.id.six);
-        iB7   = (ImageButton)findViewById(R.id.seven);
-        iB8   = (ImageButton)findViewById(R.id.eight);
-        iB9   = (ImageButton)findViewById(R.id.nine);
+		iB = (ImageView)findViewById(R.id.exit);
+        iBeb  = (TextView)findViewById(R.id.eb);
+        iBok  = (TextView)findViewById(R.id.ok);
+        iB0   = (TextView)findViewById(R.id.zero);
+        iB1   = (TextView)findViewById(R.id.one);
+        iB2   = (TextView)findViewById(R.id.two);
+        iB3   = (TextView)findViewById(R.id.three);
+        iB4   = (TextView)findViewById(R.id.four);
+        iB5   = (TextView)findViewById(R.id.five);
+        iB6   = (TextView)findViewById(R.id.six);
+        iB7   = (TextView)findViewById(R.id.seven);
+        iB8   = (TextView)findViewById(R.id.eight);
+        iB9   = (TextView)findViewById(R.id.nine);
         
         tV.setText(nya);
 		iB.setOnClickListener(new View.OnClickListener()

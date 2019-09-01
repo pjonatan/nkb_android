@@ -7,11 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
 
-
 public class Tampil extends Activity  {
 
 	TextView tV, tV2;
-	ImageButton iB;
+	ImageView iB;
 	String pindah;
 	int index;
 	
@@ -23,13 +22,13 @@ public class Tampil extends Activity  {
 		pindah = getIntent().getExtras().getString("Pindah");
 		tV = (TextView)findViewById(R.id.pasal);
 		tV2 = (TextView)findViewById(R.id.textView);
-		iB = (ImageButton)findViewById(R.id.exit);
+		iB = (ImageView)findViewById(R.id.exit);
 		index = Integer.parseInt(pindah);
 		tV.setText("NKB : " + String.valueOf(index));
 		Cursor res = new DBH(this).getLirik(index);
 		res.moveToFirst();
         tV2.setText(res.getString(1));
-		res.close();
+		res.close();    
         
         tV.setOnClickListener(new View.OnClickListener()
         {
