@@ -10,3 +10,5 @@ Consequencies : - first set in security to enable Unknown sources
 NKB.apk size is 18 KB.
 nkb.db size 154KB (sqlite3)
 Compile with eclipse + android sdk, deleted android support v4 jar library ( in lib folder).
+
+If someone need modification, please contact me at: pjtht@protonmail.com or there was something error please inform me too.
